@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b0710">
+<title>Happy Birthday, Sumuu ❤️</title>
+<style>
+:root {
+  --bg:#09070d; --card:rgba(255,255,255,.075); --line:rgba(255,255,255,.13);
+  --pink:#ff8fbe; --soft:#ffd7e7; --muted:#bcb4c2;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:
+radial-gradient(circle at 15% 10%,#3b1732 0,transparent 30%),
+radial-gradient(circle at 90% 30%,#241339 0,transparent 28%),var(--bg);color:#fff;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(120deg,transparent,rgba(255,143,190,.035),transparent);z-index:-1}
+nav{position:fixed;top:18px;left:50%;transform:translateX(-50%);z-index:30;padding:10px 16px;border:1px solid var(--line);border-radius:999px;background:rgba(10,7,14,.58);backdrop-filter:blur(18px);font-size:13px;color:#ddd}
+nav a{color:#ddd;text-decoration:none;margin:0 8px}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:90px 22px 60px;position:relative}
+.hero-inner{max-width:900px}
+.eyebrow{letter-spacing:.22em;text-transform:uppercase;color:var(--pink);font-size:12px;margin-bottom:20px}
+.heart{font-size:58px;filter:drop-shadow(0 0 25px #ff6fae66);animation:pulse 1.5s infinite}
+@keyframes pulse{50%{transform:scale(1.13)}}
+h1{font-size:clamp(48px,10vw,105px);line-height:.98;margin:18px 0;background:linear-gradient(100deg,#fff 20%,#ffb3d0 50%,#fff 80%);-webkit-background-clip:text;color:transparent}
+.hero p{max-width:680px;margin:0 auto;color:var(--muted);font-size:18px;line-height:1.8}
+.cta{display:inline-flex;margin-top:32px;padding:14px 24px;border-radius:999px;border:1px solid #ffffff1c;background:#ffffff0d;color:#fff;text-decoration:none;transition:.3s}
+.cta:hover{transform:translateY(-3px);background:#ffffff16}
+section{max-width:1100px;margin:auto;padding:105px 24px}
+.kicker{color:var(--pink);text-transform:uppercase;letter-spacing:.18em;font-size:11px;text-align:center;margin-bottom:13px}
+.title{font-size:clamp(32px,6vw,56px);text-align:center;margin-bottom:18px}
+.lead{max-width:760px;margin:0 auto;text-align:center;color:var(--muted);font-size:17px;line-height:1.9}
+.letter{max-width:760px;margin:45px auto 0;padding:36px;border:1px solid var(--line);border-radius:28px;background:var(--card);backdrop-filter:blur(18px);box-shadow:0 25px 90px #0006;color:#e9e4eb;line-height:2;font-size:17px}
+.signature{color:var(--soft);font-size:20px;margin-top:10px}
+.gallery{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:46px}
+.memory-card{margin:0;border-radius:24px;overflow:hidden;border:1px solid var(--line);background:#121018;box-shadow:0 18px 55px #0007;position:relative}
+.memory-card:nth-child(1),.memory-card:nth-child(4){grid-column:span 7}
+.memory-card:nth-child(2),.memory-card:nth-child(3),.memory-card:nth-child(5){grid-column:span 5}
+.memory-card img{width:100%;height:410px;object-fit:cover;display:block;transition:transform .7s ease}
+.memory-card:nth-child(2) img,.memory-card:nth-child(3) img,.memory-card:nth-child(5) img{height:410px}
+.memory-card:hover img{transform:scale(1.045)}
+figcaption{position:absolute;left:0;right:0;bottom:0;padding:55px 20px 18px;background:linear-gradient(transparent,#000c);font-size:13px;color:#eee}
+.final{text-align:center}
+.final-box{max-width:800px;margin:35px auto 0;padding:55px 25px;border-radius:30px;background:linear-gradient(145deg,#ffffff0b,#ff8fbe0b);border:1px solid var(--line)}
+.final-box .big{font-size:clamp(30px,6vw,58px);font-weight:700;margin:14px 0}
+.final-box p{color:var(--muted);line-height:1.8}
+footer{text-align:center;color:#766e79;padding:30px 20px 60px;font-size:13px}
+.float-heart{position:fixed;bottom:-30px;z-index:50;pointer-events:none;animation:rise linear forwards}
+@keyframes rise{to{transform:translateY(-110vh) rotate(25deg);opacity:0}}
+@media(max-width:700px){
+ nav{display:none} section{padding:80px 17px}
+ .gallery{display:block}
+ .memory-card{margin-bottom:18px}
+ .memory-card img,.memory-card:nth-child(2) img,.memory-card:nth-child(3) img,.memory-card:nth-child(5) img{height:390px}
+ .letter{padding:27px 22px}
+}
+</style>
+</head>
+<body>
+<nav><a href="#letter">Letter</a><a href="#memories">Memories</a><a href="#final">One Last Thing</a></nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">a little birthday surprise</div>
+    <div class="heart">❤️</div>
+    <h1>Happy Birthday,<br>Sumuu.</h1>
+    <p>For the girl I love, the girl I call Sumuu, and one of the most beautiful parts of my life.</p>
+    <a class="cta" href="#letter">I made this for you ↓</a>
+  </div>
+</header>
+
+<section id="letter">
+  <div class="kicker">from me, to you</div>
+  <h2 class="title">A letter for my Sumuu 💌</h2>
+  <p class="lead">There are some things that are too big for a simple birthday text.</p>
+
+  <div class="letter">
+    Sumuu,
+    <br><br>
+    Happy Birthday, my love. ❤️
+    <br><br>
+    I don't think I will ever find the perfect words for everything you mean to me,
+    but I still want to try.
+    <br><br>
+    You have become such a beautiful part of my life. I love the big moments with you,
+    but honestly, it is the tiny things I treasure the most — the random pictures,
+    the silly moments, sitting beside you, making memories without even realizing
+    that one day I would look back at them and smile.
+    <br><br>
+    I hope this new year of your life brings you everything your heart deserves.
+    I hope you keep smiling, keep dreaming, keep being the amazing person you are,
+    and I hope I get to be there for a lot more of it.
+    <br><br>
+    I love you, Sumuu. More than this little website could ever explain.
+    <br><br>
+    Happy Birthday, beautiful. ❤️
+    <div class="signature">— yours, always.</div>
+  </div>
+</section>
+
+<section id="memories">
+  <div class="kicker">our little archive</div>
+  <h2 class="title">Some of my favorite memories 📸</h2>
+  <p class="lead">Five pictures, countless feelings. And hopefully, many more memories waiting for us.</p>
+
+  <div class="gallery">
+    <figure class="memory-card" data-index="1">
+        <img src="./images/memory1.jpeg" alt="A memory of Sumuu and me" loading="lazy">
+        <figcaption>the little moments that became my favorite memories</figcaption>
+    </figure>
+<figure class="memory-card" data-index="2">
+        <img src="./images/memory2.jpeg" alt="A memory of Sumuu and me" loading="lazy">
+        <figcaption>one of my favorite people, right next to me</figcaption>
+    </figure>
+<figure class="memory-card" data-index="3">
+        <img src="./images/memory3.jpeg" alt="A memory of Sumuu and me" loading="lazy">
+        <figcaption>even the quiet moments feel special with you</figcaption>
+    </figure>
+<figure class="memory-card" data-index="4">
+        <img src="./images/memory4.jpeg" alt="A memory of Sumuu and me" loading="lazy">
+        <figcaption>you make ordinary days feel like something worth remembering</figcaption>
+    </figure>
+<figure class="memory-card" data-index="5">
+        <img src="./images/memory5.jpeg" alt="A memory of Sumuu and me" loading="lazy">
+        <figcaption>one more memory I would choose a thousand times</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="final" class="final">
+  <div class="kicker">one last thing</div>
+  <div class="final-box">
+    <div style="font-size:45px">♡</div>
+    <div class="big">I choose you.</div>
+    <p>
+      Today. Tomorrow. And in all the little ordinary days in between.<br>
+      Happy Birthday, Sumuu. I love you. ❤️
+    </p>
+  </div>
+</section>
+
+<footer>Made with love, just for Sumuu. ❤️</footer>
+
+<script>
+function heart() {
+  const h=document.createElement("div");
+  h.className="float-heart";
+  h.textContent=Math.random()>.5?"❤️":"♡";
+  h.style.left=(Math.random()*100)+"vw";
+  h.style.fontSize=(14+Math.random()*18)+"px";
+  h.style.animationDuration=(4+Math.random()*4)+"s";
+  document.body.appendChild(h);
+  setTimeout(()=>h.remove(),8500);
+}
+setInterval(heart,850);
+</script>
+</body>
+</html>
